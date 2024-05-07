@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>M&N Website</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class = "header">
+            <a href="index.html"><img src="logo.png" class="logo"></a>
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul class="navlinks">
+                        <li><a class="" href="index.html">Home</a></li>
+                        <li><a class="" href="catalogue.html">Catalogue</a></li>
+                        <li><a class="active" href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>
+        <section class = "page-header-about">
+        </section>
+        <div class="about-us">
+            <div class = "row-about">
+                <div class="col-about">
+                    <img src ="aboutmanisha.png">
+                </div>
+                <div class="col-about">
+                    <h2 class="title1">Manisha Matey</h2>
+                    <h3 class = "about-title1">Owner/Designer</h3>
+                    <p class = "about-desc">Hello, I'm Manisha Matey, and I'm thrilled to introduce myself as a former social work graduate who has found her calling in the world of fashion. My passion for fashion has been a lifelong affair, stemming from my early years where I found solace and joy in experimenting with fabrics, patterns, and styles. What began as a personal pursuit of creativity soon evolved into a profound mission to empower individuals through the transformative power of clothing. Through this venture, I aim to offer a plethora of services that not only cater to the fashion needs of individuals but also resonate with their sense of empowerment and self-expression. At M&NStyles, we pride ourselves on offering a diverse array of services, ranging from meticulously curated clothing lines to elegant gown rentals, personalized styling sessions, and exquisite bespoke customizations. Every aspect of our offerings is meticulously crafted to reflect the unique tastes and preferences of our clientele. Welcome to M&NStyles, where every garment tells a story of empowerment, and every client is celebrated for their unique sense of style.</p>
+                </div>
+
+            </div>
+            <div class = "row-about">
+                <div class="col-about">
+                    <h2 class="title2">Nilima Gawande</h2>
+                    <h3 class = "about-title2">Owner/Manager</h3>
+                    <p class = "about-desc2">I'm Nilima Gawande, a holder of an M.Sc in Maths with certifications from the Do Your Venture and Women's Startup Program at IIM, Bangalore. Having spent a decade as an Assistant Manager at LIC Housing Finance, I pivoted my career to become an entrepreneur. In 2011, I ventured into the education sector by taking on a franchise of Brainworks preschool. Over the past 13 years, I've successfully managed preschools, daycares, and various educational classes including zumba, dance, and tuition. Now, in collaboration with my partner Manisha Matey, I'm expanding my horizons with M&NStyles, aiming to offer affordable clothing to the masses. I'm dedicated to empowering individuals by providing employment opportunities to students, talented housewives, and single mothers, fostering confidence and satisfaction within my community.
+
+
+
+
+
+                    </p>
+                </div>
+                <div class="col-about">
+                    <img src ="aboutnilima.png">
+                </div>
+
+            </div>
+         </div>
+         <section class="purpose">
+            <div class ="purpose-row">
+                <div class="purpose-col">
+                    <h3 class="purpose-title">Vision</h3>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="purpose-desc">To redefine Indian fashion by celebrating cultural diversity and individuality through meticulously crafted garments, fostering a sense of pride and empowerment in every wearer.</p>
+                </div>
+                <div class="purpose-col">
+                    <h3 class="purpose-title">Mission</h3>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="purpose-desc">To provide unparalleled quality and craftsmanship in Indian attire, offering a diverse range of clothing options for purchase, rental, and customization. We aim to cater to the unique needs and preferences of our customers, ensuring they feel confident and stylish on every occasion.</p>
+                </div>
+                <div class="purpose-col">
+                    <h3 class="purpose-title">Motto</h3>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="purpose-desc">"Dress to Express, Define Your Essence."</p>
+                </div>
+            </div>
+        </section>
+        
+       
+         <section class="footer">
+            <h3>About Us</h3>
+            <p class="img-desc">Our purpose is to empower individuals by offering meticulously crafted garments tailored to celebrate their unique style and inspire confidence through fashion.</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/manishamatey?igsh=NWRxODF5Y3FneTB4" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/manisha.matey" target="_blank">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
